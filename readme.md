@@ -1,0 +1,1 @@
+Esse projeto foi realizado nas aulas de programação, lesionadas pelo Professor Murilo da Paz, utilizando as tecnologias PHP e Banco de Dados MySQL com conexões em PDO.

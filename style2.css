@@ -1,0 +1,103 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html, body{
+  background: #ffffff;
+}
+
+#esquerda{
+  align-items: center;
+  float: left;
+  padding: 26px 0px 0px;
+  width: 22%;
+  height: 255px;
+  background-color: #2F2F2F;
+  border-style: solid;
+  color: white;
+  margin: 30px auto;
+  margin-left: 50px;
+}
+
+.cadButton{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.main-title{
+  text-align: center;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+label,input{
+  margin-left: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  line-height: 30px;
+  height: 23px;
+  outline: none;
+  font-size: 16px;
+  width: 82%;
+}
+
+
+#direita{
+  height: 500px;
+  width: 65%;
+  float: right;
+}
+
+table{
+  color: white;
+  background-color: #424242;
+  margin: 20px auto;
+}
+
+tr{
+  line-height: 30px;
+}
+
+#titulo{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+    background-color: rgba(0,0,0, 0.6);
+    color: white;
+}
+
+a{
+  padding: 5px;
+  margin: 0px 5px;
+  text-decoration: none;
+  background-color: rgba(82, 84, 87, 0.753);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+a:hover{
+  background-color: #1c1c1c;
+  color: rgb(236, 254, 255);
+  transition: .2s;
+}
+
+.aviso{
+  margin-left: 10px;
+}
+
+
+.img{
+  margin-left: 225px;
+  width: 50px;
+  padding-bottom: 3px;
+  padding-top: 20px;
+}
+
+h4{
+  margin-left: 150px;
+}
