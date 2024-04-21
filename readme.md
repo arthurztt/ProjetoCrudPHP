@@ -1,1 +1,3 @@
-Esse projeto foi realizado nas aulas de programação, lecionadas pelo Professor Murilo da Paz, utilizando as tecnologias PHP e Banco de Dados MySQL com conexões em PDO.
+## Sobre o Projeto
+
+Aplicação feita para o aprendizado de Programação Orientada a Objetos, utilizando PHP como linguagem e fazendo conexões com o banco de dados utilizando MySQ e PDO.
