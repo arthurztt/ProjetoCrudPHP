@@ -6,27 +6,35 @@
 
 html, body{
   background: #ffffff;
+  margin: 35px;
 }
 
 #esquerda{
-  align-items: center;
-  float: left;
-  padding: 26px 0px 0px;
-  width: 22%;
-  height: 255px;
   background-color: #2F2F2F;
   border-style: solid;
   color: white;
-  margin: 30px auto;
-  margin-left: 50px;
+  float: left;
+  width: 25%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin: 0px 0px 0px 50px;
+}
+
+.form-items{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .cadButton{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   height: 25px;
-  margin-top: 20px;
   cursor: pointer;
   font-weight: bold;
+  margin-top: 25px;
 }
 
 .main-title{
@@ -36,7 +44,6 @@ html, body{
 }
 
 label,input{
-  margin-left: 32px;
   font-family: Arial, Helvetica, sans-serif;
   display: block;
   line-height: 30px;
@@ -70,6 +77,10 @@ tr{
     color: white;
 }
 
+tr > td {
+  padding: 5px;
+}
+
 a{
   padding: 5px;
   margin: 0px 5px;
@@ -87,17 +98,17 @@ a:hover{
 }
 
 .aviso{
-  margin-left: 10px;
+  margin-bottom: 30px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
 .img{
-  margin-left: 225px;
   width: 50px;
-  padding-bottom: 3px;
-  padding-top: 20px;
 }
 
-h4{
-  margin-left: 150px;
+.nada{
+  display: none;
 }

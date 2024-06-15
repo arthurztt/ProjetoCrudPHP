@@ -7,7 +7,7 @@
     {
       try 
       {
-        $this->pdo = new PDO("mysql:dbname=".$dbname.";host=".$host,$user,$senha);
+        $this->pdo = new PDO("pgsql:dbname=".$dbname.";host=".$host,$user,$senha);
       }
       catch (PDOException $e)
       {
